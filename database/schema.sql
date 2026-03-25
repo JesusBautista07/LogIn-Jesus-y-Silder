@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS proyecto;
+USE proyecto;
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL
+);
